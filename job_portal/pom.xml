@@ -37,7 +37,7 @@
     <!-- SonarQube Configuration -->
     <properties>
         <sonar.host.url>http://54.219.232.7:9000/</sonar.host.url>
-        <sonar.projectKey>job_portal_2</sonar.projectKey>
+        <sonar.projectKey>com_proj:job_portal_2</sonar.projectKey>
         <sonar.projectName>Job Portal 2</sonar.projectName>
         <sonar.projectVersion>0.0.1-SNAPSHOT</sonar.projectVersion>
         <sonar.sources>src/main</sonar.sources>
@@ -69,10 +69,10 @@
             
             <!-- SonarQube Plugin -->
             <plugin>
-          <groupId>org.sonarsource.scanner.maven</groupId>
-          <artifactId>sonar-maven-plugin</artifactId>
-          <version>3.9.0.2184</version>
-        </plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.9.0.2184</version>
+            </plugin>
         </plugins>
     </build>
 </project>
